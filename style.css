@@ -1,0 +1,226 @@
+body{ 
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+    
+/*---------------------HEADER---------------------------------------*/
+
+.header {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+
+    height: 100px;
+    padding: 20px 200px;
+
+    background-color: rgb(41, 47, 30);
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+
+}
+
+.logo img {
+    height: 80px;
+}
+
+.navlinks {
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navlinks a {
+    font-size: 24px;
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+
+/*---------------------INTRO--------------------------------------*/
+
+
+.content1 {
+    display: flex;
+
+    background-color: rgb(23, 23, 29);
+    color: rgba(255, 235, 205, 0.541);
+
+    padding: 100px 200px;
+
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.intro {
+    flex: 1 1 0;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.introimage {
+    flex: 1 0 0;
+    flex-wrap: wrap; 
+}
+
+ .introimage img{
+     border-radius: 20px;
+ }
+
+ 
+
+ .intro button{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+    background-color: rgb(39, 35, 31);
+    color: rgba(255, 235, 205, 0.541);
+    font-size: 22px;
+ }
+ 
+
+
+
+/*-------------------CARDS-----------------------------------*/
+
+
+
+.content2 {
+
+    min-height: 200px;
+    padding: 50px 200px;
+
+
+    background-color: rgb(37, 41, 29);
+    color: rgba(255, 235, 205, 0.541);
+}
+
+.content2 h2, .content2 p {
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    
+    padding: 20px;
+
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.card img {
+    flex: 1;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+/*---------------------APHORISM--------------------------------------*/
+
+
+.content3 {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 200px;
+    background-color: rgb(23, 23, 29);
+    color: rgba(255, 235, 205, 0.541);
+}
+
+.content3 p {
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+}
+
+
+/*-----------------------------NEWSLETTER--------------*/
+
+
+.content4 {
+    display: flex;
+    
+    background-color: rgb(37, 41, 29);
+    color: rgba(255, 235, 205, 0.541);
+
+    padding: 50px 200px;
+    justify-content: center;
+}
+
+.subscriptionbox {
+    
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+
+    padding: 30px 100px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+.text {
+    
+    
+}
+
+.subscriptionbox button {
+    height: 50px;
+    width: 100px;
+}
+
+
+
+/*-----------------------FOOTER----------------------------*/
+
+footer {
+    padding: 20px 0;
+    background-color: rgb(23, 23, 29);
+    color: rgba(255, 235, 205, 0.541);
+    text-align: center;
+}
+
